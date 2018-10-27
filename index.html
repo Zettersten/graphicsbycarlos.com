@@ -28,12 +28,11 @@
 </head>
 
 <body id="no_scroll">
-
-
     <div id="preloader">
         <div id="loader"></div>
     </div>
     <div id="wrapbox">
+
         <div class="landing_banner_sec section" id="banner_box">
 
             <div class="col-xs-12 top_nav_br">
@@ -59,6 +58,7 @@
 
             <!--landing_banner_sec-->
         </div>
+
         <div id="main_navbar" data-spy="affix" data-offset-top="100">
             <nav class="navbar">
                 <div class="container-fluid no_padding">
@@ -106,16 +106,12 @@
                 </div>
             </div>
         </div>
-
         <div class="clearfix"></div>
-        <!------------------->
-        <!--Concept Section-->
-        <!------------------->
-
 
         <!------------------->
-        <!--logo Section-->
+        <!-- logo Section --->
         <!------------------->
+
         <div id="logo_section" class="generoc_outer_box content">
             <div class="logos_box_outer">
                 <div class="logo_box_inner" data-aos="fade-up" data-aos-duration="3000">
@@ -207,11 +203,7 @@
         <div class="clearfix"></div>
 
         <!------------------->
-        <!--logo Section-->
-        <!------------------->
-
-        <!------------------->
-        <!--Print  Section--->
+        <!--Print Section --->
         <!------------------->
 
         <div id="print_section" class="generoc_outer_box content">
@@ -250,8 +242,6 @@
                                     </div>
                                 </div>
                             </a>
-
-
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 model_sect_comn">
                             <a data-toggle="modal" data-target="#print_3">
@@ -266,8 +256,6 @@
                                     </div>
                                 </div>
                             </a>
-
-
                         </div>
                     </div>
                     <div class="print_box1" data-aos="fade-up" data-aos-duration="3000">
@@ -323,14 +311,6 @@
 
         </div>
         <div class="clearfix"></div>
-
-
-        <!------------------->
-        <!--Print  Section--->
-        <!------------------->
-
-
-
 
         <!------------------->
         <!--Events  Section--->
@@ -444,17 +424,11 @@
         </div>
         <div class="clearfix"></div>
 
-
-
-
-
         <!---------------------->
         <!--InfoGraphies Sect--->
         <!---------------------->
 
         <div id="info_sections" class="generoc_outer_box content">
-
-
             <div class="spacer"></div>
             <div class="info_graphic_sec_outer">
                 <div class="col-xs-12 info_graphic_sec">
@@ -486,16 +460,11 @@
             <div class="spacer"></div>
         </div>
         <div class="clearfix"></div>
-        <!---------------------->
-        <!--InfoGraphies Sect--->
-        <!---------------------->
-
-
-
 
         <!---------------------->
         <!--MISC Sect--->
         <!---------------------->
+
         <div id="mis_section" class="generoc_outer_box">
             <div class="spacer"></div>
             <div class="col-xs-12 info_graphic_sec">
@@ -521,11 +490,6 @@
         <div class="clearfix"></div>
 
     </div>
-
-
-    <!---------------------->
-    <!--MISC Sect--->
-    <!---------------------->
 
     <div id="about_outer" style='display:none' class="sub_page" data-aos="fade-up">
         <div class="container">
@@ -673,14 +637,17 @@
             <div class="row">
                 <div class="serverics_inner_cont">
                     <div class="services_inner_red_bodr">
-                            <div class="service_logo">
-                                <a href="#"> <img src="assets/images/logo_services.png"></a>
-                            </div>
+                        <div class="service_logo">
+                            <a href="#"> <img src="assets/images/logo_services.png"></a>
+                        </div>
                         <form action="https://formspree.io/carlos@graphicsbycarlos.com" method="post">
-                            <input type="text" placeholder="NAME" autocomplete="name" name="name" class="form-control form-input" required="">
-                            <input type="email" placeholder="EMAIL ADDRESS" name="email" autocomplete="email" class="form-control form-input" required="">
+                            <input type="text" placeholder="NAME" autocomplete="name" name="name" class="form-control form-input"
+                                required="">
+                            <input type="email" placeholder="EMAIL ADDRESS" name="email" autocomplete="email" class="form-control form-input"
+                                required="">
                             <input type="tel" name="phone" autocomplete="tel" placeholder="PHONE NUMBER" class="form-control form-input">
-                            <textarea nae="message" placeholder="MESSAGE" class="form-control form-input" rows="6" required=""></textarea>
+                            <textarea nae="message" placeholder="MESSAGE" class="form-control form-input" rows="6"
+                                required=""></textarea>
                             <input type="submit" class="btn btn-danger btn-lg" value="Send Message" />
                         </form>
                     </div>
@@ -689,56 +656,64 @@
         </div>
         <div class="close_btn"><span class="close_img"><img src="assets/images/cross.png"> </span> </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-1.9.1.min.js" type="application/javascript"></script>
     <script src="assets/js/bootstrap.min.js" type="application/javascript"></script>
     <script src="assets/js/aos.js" type="application/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
+    <script>
 
-    <script type="application/javascript">
         jQuery(window).load(function () {
             jQuery('#preloader').fadeOut('slow');
         });
-        $(window).resize(function () {
+
+        jQuery(window).resize(function () {
             heightResize()
         });
+
         function heightResize() {
             $(".landing_banner_sec").height($(window).height());
             $(".generic_header_sec").attr('data-offset-top', $(window).height());
-            //        $(".concept_img").height($(window).height());
-        }
-        $(document).ready(function () {
-            heightResize()
+        };
+
+        jQuery(document).ready(function () {
+
+            heightResize();
 
             jQuery('#services').click(function () {
+                jQuery('.close_btn').click();
                 jQuery('#wrapbox').hide();
                 jQuery('#services_outer').show();
-            })
+            });
+
             jQuery('#contact').click(function () {
+                jQuery('.close_btn').click();
                 jQuery('#wrapbox').hide();
                 jQuery('#contact_outer').show();
-            })
+            });
+
             jQuery('#about').click(function () {
+                jQuery('.close_btn').click();
                 jQuery('#wrapbox').hide();
                 jQuery('#about_outer').show();
-            })
+            });
+
             jQuery('.close_btn').click(function () {
                 jQuery('#contact_outer').hide();
                 jQuery('#about_outer').hide();
-                jQuery('#about_outer').hide();
+                jQuery('#services_outer').hide();
                 jQuery('#wrapbox').show();
-            })
+            });
 
+            $(document).on("scroll", function (event) {
 
-            function onScroll(event) {
                 var scrollPos = $(document).scrollTop();
+
                 $('#main_navbar ul li a ').each(function () {
                     var currLink = $(this);
                     var refElement = $(currLink.attr("href"));
                     if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
                         $('#main_navbar ul li a').removeClass("active");
                         currLink.addClass("active");
-                        console.log('currLink ' + currLink.attr('href'));
                         switch (currLink.attr('href')) {
 
                             case '#concept_cont':
@@ -763,14 +738,11 @@
                         }
                     }
                     else {
-                        // console.log('currLink '+currLink.attr('href'));
                         currLink.removeClass("active");
                     }
                 });
-            }
+            });
 
-
-            $(document).on("scroll", onScroll);
             //smoothscroll
             $('a[href^="#"]').on('click', function (e) {
                 e.preventDefault();
@@ -792,25 +764,16 @@
                 });
             });
 
-
             $(".show-modal").click(function () {
                 $("#myModal").modal({
                     backdrop: 'static',
-                    keyboard: false,
-
+                    keyboard: false
                 });
             });
-
 
             $().fancybox({
                 selector: '.imglist a:visible'
             });
-
-            /*$("[data-fancybox]").fancybox({
-                thumbs : {
-                    autoStart : true
-                }
-            });*/
 
             $('[data-fancybox]').fancybox({
                 toolbar: false,
@@ -821,24 +784,24 @@
                     preload: false
                 }
             });
-            AOS.init();
-            $('#myModal').on('shown.bs.modal', function () {
-                $('div#wrapbox').css('display', 'none');
-                // do something…
-            })
-            $('#myModal').on('hidden.bs.modal', function () {
-                $('div#wrapbox').css('display', 'block');
-                // do something…
-            })
-            $('#myModal2').on('shown.bs.modal', function () {
-                $('div#wrapbox').css('display', 'none');
-                // do something…
-            })
-            $('#myModal2').on('hidden.bs.modal', function () {
-                $('div#wrapbox').css('display', 'block');
-                // do something…
-            })
 
+            AOS.init();
+
+            $('#myModal').on('shown.bs.modal', function () {
+                $('div#wrapbox').hide();
+            });
+
+            $('#myModal').on('hidden.bs.modal', function () {
+                $('div#wrapbox').show();
+            });
+
+            $('#myModal2').on('shown.bs.modal', function () {
+                $('div#wrapbox').hide();
+            });
+
+            $('#myModal2').on('hidden.bs.modal', function () {
+                $('div#wrapbox').show();
+            });
         });
 
     </script>

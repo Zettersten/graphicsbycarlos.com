@@ -1,5 +1,5 @@
-
-.sub_page , #about_outer {
+.sub_page,
+#about_outer {
     width: 100%;
     padding: 65px;
     transition: .5s ease-in-out;
@@ -7,7 +7,6 @@
     z-index: 99999999999;
     height: 100vh;
     background: #000;
-
 }
 
 .sub_page .serverics_inner_cont {
@@ -16,7 +15,7 @@
     margin: 0 auto;
 }
 
-.sub_page  .serverics_inner_cont:before{
+.sub_page .serverics_inner_cont:before {
     position: absolute;
     width: 100%;
     content: "";
@@ -24,10 +23,10 @@
     height: 604px;
     left: 20px;
 }
-#about_outer.sub_page  .serverics_inner_cont:before {
+
+#about_outer.sub_page .serverics_inner_cont:before {
     background: url(../images/white_border-01.png) no-repeat;
 }
-
 
 .sub_page .serverics_inner_cont .service_logo {
     position: relative;
@@ -35,7 +34,6 @@
     left: -20px;
     width: 38%;
     float: left;
-
 }
 
 .serverics_cont_box_outer {
@@ -45,7 +43,8 @@
     position: relative;
     z-index: 9;
 }
-.serverics_cont_box_outer  .serives_cont_inner {
+
+.serverics_cont_box_outer .serives_cont_inner {
     width: 179px;
     height: 179px;
     float: left;
@@ -54,12 +53,13 @@
     text-align: center;
     margin-bottom: 50px;
 }
-.serverics_cont_box_outer  .serives_cont_inner.meadl_services_cont {
+
+.serverics_cont_box_outer .serives_cont_inner.meadl_services_cont {
     margin-right: 112px;
     margin-left: 112px;
 }
 
-.serverics_cont_box_outer  .serives_cont_inner  .red_border_service {
+.serverics_cont_box_outer .serives_cont_inner .red_border_service {
     border: 3px solid #ff0000;
     height: 164px;
     width: 164px;
@@ -67,16 +67,17 @@
     display: table;
     transition: .5s ease-in-out;
 }
+
 .serverics_cont_box_outer .serives_cont_inner .red_border_service:hover {
     background: #ff0000;
-
 }
 
-.serverics_cont_box_outer  .serives_cont_inner  .red_border_service .servcis_cont_text {
+.serverics_cont_box_outer .serives_cont_inner .red_border_service .servcis_cont_text {
     display: table-cell;
     vertical-align: middle;
 }
-.serverics_cont_box_outer  .serives_cont_inner  .red_border_service .servcis_cont_text h3 {
+
+.serverics_cont_box_outer .serives_cont_inner .red_border_service .servcis_cont_text h3 {
     font-size: 16px;
     line-height: 19px;
     color: #fff;
@@ -90,17 +91,17 @@
     float: left;
     top: 17px;
     left: 17px;
-
 }
-.services_inner_red_bodr:before{
+
+.services_inner_red_bodr:before {
     position: absolute;
     width: 100%;
     content: "";
     background: url(../images/red_border.png) no-repeat;
     height: 604px;
     left: 20px;
-
 }
+
 #about_outer .services_inner_red_bodr:before {
     background: url(../images/red_border-01.png) no-repeat;
 }
@@ -109,38 +110,38 @@
     width: 100%;
     float: left;
 }
+
 .info_box .img_outer {
     height: 178px;
     width: 100%;
     background: #fff;
 }
-.info_box h3  {
+
+.info_box h3 {
     font-size: 14px;
     line-height: 14px;
-    margin:25px 0;
+    margin: 25px 0;
     color: #fff;
 }
-.info_box  p{
+
+.info_box p {
     font-size: 14px;
     line-height: 24px;
     color: #fff;
-
 }
+
 .info_details {
     font-size: 16px;
     line-height: 23px;
     color: #fff;
-    padding: 0  0 0 10%;
+    padding: 0 0 0 10%;
 }
 
-
 .about_cont_box_outer {
-
     padding: 30px 80px 0;
     width: 100%;
     float: left;
 }
-
 
 .close_btn {
     position: absolute;
@@ -149,6 +150,7 @@
     color: #fff;
     cursor: pointer;
 }
+
 .close_btn .close_img {
     margin-right: 10px;
     display: inline-block;
@@ -165,4 +167,10 @@
     border: 1px solid #ccc;
     background: black;
     color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    #contact_outer form {
+        margin: 30px;
+    }
 }
