@@ -127,6 +127,10 @@ text-decoration: none;
     padding-top: 10%;
 }
 
+.landing_banner_text img {
+    max-width: 540px;
+}
+
 #main_navbar {
     width: 100%;
     background: url(../images/navbar_bg.jpg);
