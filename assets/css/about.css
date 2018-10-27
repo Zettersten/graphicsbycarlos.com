@@ -154,3 +154,15 @@
     display: inline-block;
 }
 
+#contact_outer form {
+    margin: 45px 150px 0;
+    position: relative;
+    z-index: 9999;
+}
+
+#contact_outer .form-control {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: black;
+    color: #fff;
+}
