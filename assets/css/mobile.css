@@ -1,0 +1,363 @@
+@media screen and (max-width: 1550px){
+    #logo_sec {
+        height: auto !important;
+    }
+    #main_navbar ul li a {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 60px 40px 30px;
+    }
+    #main_navbar ul.nav {
+        width: 100%;
+        text-align: center;
+    }
+    #main_navbar ul li {
+        text-align: center;
+        display: inline-block;
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 1199px){
+    #main_navbar ul li a {
+        padding: 35px 28px 20px;
+        font-size: 20px;
+    }
+    .top_nav_br ul li a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .landing_banner_text a img {
+        width: 60%;
+    }
+    #main_navbar {
+        padding-bottom: 20px;
+    }
+    .generic_header1  img{
+        width: 60%;
+}
+
+    .generic_header2 {
+        margin-top: 20px;
+    }
+    .print_outer {
+        padding: 0;
+    }
+    .club_img_box {
+        padding-bottom: 170px;
+    }
+    .serverics_cont_box_outer{
+        padding: 0 7%;
+    }
+    .sub_page, .services_body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sub_page .serverics_inner_cont {
+        width: 100%;
+    }
+    .services_inner_red_bodr:before ,
+    .sub_page .serverics_inner_cont:before
+    {
+
+        background-size: contain;
+    }
+    .sub_page .serverics_inner_cont:before{
+    height: 560px;
+}
+    .services_inner_red_bodr:before {
+        height: 530px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .landing_banner_outer {
+        padding-right: 30px;
+    }
+    .top_nav_br ul {
+        padding-right: 0;
+    }
+    #main_navbar ul li a {
+        padding: 30px 18px 20px;
+        font-size: 16px;
+    }
+    #main_navbar ul li.active a:before, #main_navbar ul li a.active:before {
+        height: 10px;
+        top: -10px;
+    }
+
+    .print_box1 .model_sect_comn {
+        padding: 30px;
+    }
+
+    .generic_header_sec .generic_header2 h2 {
+        font-size: 24px;
+    }
+    .spacer {
+        padding: 20px 0;
+    }
+    .sketch_outer {
+        margin: 20px 0;
+    }
+    .club_img_box {
+        padding-bottom: 160px;
+    }
+    .serverics_cont_box_outer .serives_cont_inner.meadl_services_cont {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .about_cont_box_outer {
+        padding: 10px 20px 0;
+    }
+    .info_details {
+        padding: 0 0 0 5%;
+    }
+    .services_inner_red_bodr:before, .sub_page .serverics_inner_cont:before {
+        display: none;
+    }
+    .sub_page, #about_outer {
+        padding: 60px 0;
+    }
+}
+
+
+@media screen   and (max-width: 767px) {
+    img.img-responsive {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #main_navbar ul li {
+        display: inline-block;
+    }
+
+    #main_navbar ul li a {
+        padding: 20px 14px 20px;
+        font-size: 14px;
+    }
+
+    #main_navbar {
+        padding-bottom: 10px;
+    }
+
+    .generic_header_sec .generic_header2 h2 {
+        font-size: 18px;
+    }
+
+    .generic_header1 img {
+        width: 45%;
+    }
+
+    .top_nav_br ul li a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .top_nav_br ul li {
+        padding: 0 15px;
+    }
+
+    .generic_header2 {
+        margin-top: 15px;
+    }
+
+    .info_graphic_sec, .logos_box_outer, .print_outer {
+        padding: 0 5%;
+    }
+
+    .landing_banner_outer {
+        height: auto;
+    }
+
+    .logo_box_inner .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .logo_box_inner .col-lg-6.col-md-6.col-sm-4.col-xs-12 {
+        width: 50%;
+        float: left;
+    }
+
+    .logo_box_inner .col-lg-6.col-md-6.col-sm-4.col-xs-12 .img-responsive,
+    .logo_box_inner .col-lg-4.col-md-4.col-sm-4.col-xs-12 .img-responsive {
+        width: 90%;
+    }
+
+    .info_details {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .services_inner_red_bodr_about {
+        padding: 30px 0;
+    }
+    .services_inner_red_bodr {
+        left: 0;
+    }
+
+
+    .services_inner_red_bodr:before {
+        height: 100%;
+        background-size: cover;
+    }
+
+
+    .sub_page .serverics_inner_cont:before ,
+    .services_inner_red_bodr:before
+    {
+        display: none;
+    }
+    .sub_page .serverics_inner_cont .service_logo {
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width: 667px){
+    .serverics_cont_box_outer .serives_cont_inner.meadl_services_cont {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .serverics_cont_box_outer {
+        padding: 0 2%;
+    }
+    .sub_page .serverics_inner_cont .service_logo {
+        width: 80%;
+    }
+    .sub_page .serverics_inner_cont .service_logo img {
+        width: 70%;
+    }
+    .sub_page .serverics_inner_cont .service_logo {
+        left: -18px;
+    }
+    .sub_page, #about_outer {
+        height: auto;
+    }
+
+}
+
+@media screen   and (max-width: 480px) {
+    #main_navbar ul li a {
+        padding: 12px 8px 13px;
+        font-size: 12px;
+    }
+
+
+    #main_navbar ul {
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .generic_header1, .generic_header2 {
+        width: 50%;
+    }
+
+    .generic_header1 img {
+        width: 70%;
+    }
+
+    .generic_header2 {
+        text-align: right;
+    }
+
+    .generic_header_sec .generic_header2 h2 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .top_nav_br ul li a {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .top_nav_br ul li {
+        padding: 0 10px;
+    }
+
+    .print_img_caption h3 {
+        font-size: 14px;
+    }
+
+
+
+    .logo_box_inner {
+        margin: 0;
+    }
+    .logos_box_outer {
+        padding: 15px 0;
+    }
+    .modal-body{
+        padding: 50px 0;
+    }
+   .modal-body  img.img-responsive {
+       width: 80%;
+    }
+    #main_navbar {
+        margin: 0;
+    }
+
+    .landing_banner_sec {
+        background-position: left;
+    }
+    .print_box1 .model_sect_comn{
+        padding: 7px 15px;
+    }
+    div#mis_cont {
+        padding-bottom: 80px;
+    }
+    .print_outer {
+        padding-bottom: 20px;
+    }
+.print_outer .print_box1 {
+    padding-bottom: 0;
+}
+    .modal-content .button_close.close {
+        padding: 5px 10px;
+        font-size: 24px;
+    }
+
+    .landing_banner_outer {
+        height: 650px;
+    }
+    .sketch_outer {
+        margin: 20px 0;
+    }
+    .sketch_outer .col-lg-6 {
+        margin-bottom: 10px;
+    }
+    .club_img_box {
+        padding-bottom: 80px;
+    }
+    #main_navbar ul li a.active:before, #main_navbar ul li a:hover:before, #main_navbar ul li a:focus:before {
+        height: 10px;
+        top: -7px;
+    }
+
+    img.img-responsive {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .serverics_cont_box_outer .serives_cont_inner {
+        margin:0 auto 20px !important;
+        float: none;
+    }
+    .serverics_cont_box_outer {
+        padding: 5%;
+    }
+    .modal-body .btn-default {
+        right: 30px;
+
+        width: 70px;
+    }
+
+}
